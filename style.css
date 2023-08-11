@@ -1,0 +1,134 @@
+* {
+    background-color:#f2eab7;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Handjet', cursive;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* INDEX PAGE */
+
+.cabecalho{
+    border: 5px solid #49708a;
+    background-color: #752e2b;
+    color:aqua;
+    font-size:25px;    
+    text-align: center;
+}
+.titulo {
+    text-align: center;
+}
+
+/* DIV BLOCOS DO SITE*/
+.centralizar {
+    width:100%;
+    height:100%;
+    margin:auto;
+}
+
+.navbar {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+/* LISTA DE INTERAÇÃO DA NAVBAR */
+
+.bt {
+    color:#49708a;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.navegacao{
+    color:#fb6900;
+}
+
+.bloco1 {
+    width: 60%;
+    height: 150px;
+    border: 5px solid #88abc2;
+}
+
+.imagembloco1 {
+    width: 100%;
+    height: 160px;
+}
+
+.bloco2 {
+    width: 60%;
+    height: 150px;
+    border: 5px solid #88abc2;
+}
+
+.imagembloco2 {
+    width: 100%;
+    height: 160px;
+}
+
+.bloco3 {
+    width: 60%;
+    height: 150px;
+    border: 5px solid #88abc2;
+}
+
+.imagembloco3 {
+    width: 100%;
+    height: 160px;
+}
+
+.destaques {
+    padding: 10px;
+    border:5px solid #88abc2;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 480px;
+    left: 5px;
+    width: 39%;
+    height: 450px;
+
+} 
+
+
+.partefinal {
+    border: 5px solid #49708a;
+    height: 350px;
+    padding: 10px;
+}
+.rodape {
+    border: 5px;
+    border-style: solid;
+    border-color:#090f13;
+    text-align: center;
+}
+
+
+/* NEWS PAGE */
+
+.news {
+    border: 1px solid black;
+    width: 100%;
+    height: 450px;
+}
+
+/* ABOUT US PAGE */
+
+.sobrenos {
+    border: 1px solid black;
+    width: 100%;
+    height: 450px;
+}
+
+/* REGISTER PAGE */
+
+.formulario {
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+}
