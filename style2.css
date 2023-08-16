@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Handjet', cursive;
+}
+.principal {
+    margin-left: 38vw;
+    margin-top: 20vw;
+}
+body{
+    background-image: url("background-image.jpeg");
+    background-size: cover;
+}
+.formulario {
+    backdrop-filter: blur(14px);
+    width: 20vw;
+    height; 30vw;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.pwd {
+    margin-left: 8px;
+}
+button {
+    margin-top: 1vw;
+    padding: 5px;
+    transition: all 2s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+}
+
+
