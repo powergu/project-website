@@ -1,5 +1,6 @@
-* {
-    background-color:#f2eab7;
+ * {
+    background-image: url("background-image.jpg");
+    background-size: cover;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-family: 'Handjet', cursive;
     max-width: 100%;
@@ -11,12 +12,16 @@
 .cabecalho{
     border: 5px solid #49708a;
     background-color: #752e2b;
-    color:aqua;
+    color:white;
     font-size:25px;    
     text-align: center;
 }
 .titulo {
-    text-align: center;
+    margin-left: 2vw;
+    color: white;
+}
+.imagemtitulo {
+    width: 35vw;
 }
 
 /* DIV BLOCOS DO SITE*/
@@ -32,17 +37,20 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+
 }
 /* LISTA DE INTERAÇÃO DA NAVBAR */
 
 .bt {
-    color:#49708a;
+    color:white;
     text-decoration: none;
     width: 100%;
     padding: 10px;
     margin: 10px;
     font-size: 30px;
+    transition: all 2s;
 }
+
 
 .navegacao{
     color:#fb6900;
@@ -51,7 +59,7 @@
 .bloco1 {
     width: 60%;
     height: 150px;
-    border: 5px solid #88abc2;
+    border: 5px solid gray;
 }
 
 .imagembloco1 {
@@ -62,7 +70,7 @@
 .bloco2 {
     width: 60%;
     height: 150px;
-    border: 5px solid #88abc2;
+    border: 5px solid gray;
 }
 
 .imagembloco2 {
@@ -73,7 +81,7 @@
 .bloco3 {
     width: 60%;
     height: 150px;
-    border: 5px solid #88abc2;
+    border: 5px solid gray;
 }
 
 .imagembloco3 {
@@ -83,28 +91,27 @@
 
 .destaques {
     padding: 10px;
-    border:5px solid #88abc2;
+    border:5px solid gray;
     display: inline-block;
     float: right;
     position: relative;
     bottom: 480px;
-    left: 5px;
-    width: 39%;
+    width: 38%;
     height: 450px;
 
 } 
 
 
 .partefinal {
-    border: 5px solid #49708a;
+    border: 5px solid gray;
     height: 350px;
     padding: 10px;
+    color: white;
 }
-.rodape {
-    border: 5px;
-    border-style: solid;
-    border-color:#090f13;
+footer {
+    border: 5px solid gray;
     text-align: center;
+    color: white;
 }
 
 
@@ -112,7 +119,7 @@
 
 .news {
     border: 1px solid black;
-    width: 100%;
+    width: 100vw;
     height: 450px;
 }
 
@@ -120,7 +127,7 @@
 
 .sobrenos {
     border: 1px solid black;
-    width: 100%;
+    width: 100vw;
     height: 450px;
 }
 
@@ -131,4 +138,10 @@
     margin: auto;
     padding: 10px;
     font-size: 20px;
+}
+
+.icones {
+    width: 35px;
+    height: 25px;
+
 }
